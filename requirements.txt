@@ -1,0 +1,13 @@
+plotly
+sklearn
+umap-learn
+scipy
+more-itertools
+numpy
+pandas
+scikit-learn
+streamlit
+umap
+pip
+yfinance
+ta

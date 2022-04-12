@@ -1,0 +1,37 @@
+[global]
+# By default, Streamlit checks if the Python watchdog module is available and, if not, prints a warning asking for you to install it. The watchdog module is not required, but highly recommended. It improves Streamlit's ability to detect changes to files in your filesystem.
+# If you'd like to turn off this warning, set this to True.
+# Default: false
+disableWatchdogWarning = false
+
+dataFrameSerialization = "legacy"
+
+[theme]
+base="light"
+
+# Primary accent color for interactive elements.
+primaryColor = '#4976E4' # couleur des bouttons
+
+# Background color for the main content area.
+# backgroundColor= '#f5f6f7' # fond de page
+
+# Background color used for the sidebar and most interactive widgets.
+# secondaryBackgroundColor = '#d2d6db'  # sidebar couleur
+
+# Color used for almost all text.
+textColor = '#222f3e' # couleur du texte
+
+# Font family for all text in the app, except code blocks. One of "sans serif", "serif", or "monospace".
+font = "sans serif"
+
+[deprecation]
+
+# Set to false to disable the deprecation warning for the file uploader encoding.
+# Default: "True"
+showfileUploaderEncoding = "False"
+
+[server]
+
+# Max size, in megabytes, for files uploaded with the file_uploader.
+# Default: 200
+maxUploadSize = 200
